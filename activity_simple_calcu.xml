@@ -1,0 +1,358 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SimpleCalcuActivity"
+    android:background="#1E1E1E">
+
+    <EditText
+        android:id="@+id/simpleOutput"
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:padding="25dp"
+        android:enabled="false"
+        android:hint="0"
+        android:textAlignment="viewEnd"
+        android:textSize="35dp"
+        android:textColor="#FFB730"
+        android:textColorHint="#FFC24F"
+        android:backgroundTint="#FFB730" />
+
+    <Button
+        android:id="@+id/simple1"
+        android:text="1"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/simpleOutput"
+        android:layout_marginLeft="13dp"
+        android:layout_marginTop="5dp"
+        android:paddingTop="25dp"
+        android:paddingLeft="12dp"
+        android:paddingRight="12dp"
+        android:paddingBottom="25dp"
+
+        android:backgroundTint="#FFB730"
+        android:outlineSpotShadowColor="#FFB730"
+        android:textColor="#1E1E1E"
+        android:textSize="30dp"/>
+
+    <Button
+        android:id="@+id/simple2"
+        android:text="2"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/simple1"
+
+        android:layout_marginLeft="113dp"
+        android:layout_marginTop="5dp"
+        android:paddingTop="25dp"
+        android:paddingLeft="12dp"
+        android:paddingRight="12dp"
+        android:paddingBottom="25dp"
+
+        android:backgroundTint="#FFB730"
+        android:outlineSpotShadowColor="#FFB730"
+        android:textColor="#1E1E1E"
+        android:textSize="30dp"/>
+
+    <Button
+        android:id="@+id/simple3"
+        android:text="3"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/simple1"
+
+        android:layout_marginLeft="213dp"
+        android:layout_marginTop="5dp"
+        android:paddingTop="25dp"
+        android:paddingLeft="12dp"
+        android:paddingRight="12dp"
+        android:paddingBottom="25dp"
+
+        android:backgroundTint="#FFB730"
+        android:outlineSpotShadowColor="#FFB730"
+        android:textColor="#1E1E1E"
+        android:textSize="30dp"/>
+
+    <Button
+        android:id="@+id/simplePlus"
+        android:text="+"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/simple1"
+
+        android:layout_marginLeft="313dp"
+        android:layout_marginTop="5dp"
+        android:paddingTop="25dp"
+        android:paddingLeft="12dp"
+        android:paddingRight="12dp"
+        android:paddingBottom="25dp"
+
+        android:backgroundTint="#FFC24F"
+        android:outlineSpotShadowColor="#FFB730"
+        android:textColor="#1E1E1E"
+        android:textSize="30dp"/>
+
+    <Button
+        android:id="@+id/simple4"
+        android:text="4"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/simple1"
+        android:layout_marginLeft="13dp"
+        android:layout_marginTop="5dp"
+        android:paddingTop="25dp"
+        android:paddingLeft="12dp"
+        android:paddingRight="12dp"
+        android:paddingBottom="25dp"
+
+        android:backgroundTint="#FFB730"
+        android:outlineSpotShadowColor="#FFB730"
+        android:textColor="#1E1E1E"
+        android:textSize="30dp"/>
+
+    <Button
+        android:id="@+id/simple5"
+        android:text="5"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/simple4"
+
+        android:layout_marginLeft="113dp"
+        android:layout_marginTop="5dp"
+        android:paddingTop="25dp"
+        android:paddingLeft="12dp"
+        android:paddingRight="12dp"
+        android:paddingBottom="25dp"
+
+        android:backgroundTint="#FFB730"
+        android:outlineSpotShadowColor="#FFB730"
+        android:textColor="#1E1E1E"
+        android:textSize="30dp"/>
+
+    <Button
+        android:id="@+id/simple6"
+        android:text="6"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/simple4"
+
+        android:layout_marginLeft="213dp"
+        android:layout_marginTop="5dp"
+        android:paddingTop="25dp"
+        android:paddingLeft="12dp"
+        android:paddingRight="12dp"
+        android:paddingBottom="25dp"
+
+        android:backgroundTint="#FFB730"
+        android:outlineSpotShadowColor="#FFB730"
+        android:textColor="#1E1E1E"
+        android:textSize="30dp"/>
+
+    <Button
+        android:id="@+id/simpleMinus"
+        android:text="-"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/simple4"
+
+        android:layout_marginLeft="313dp"
+        android:layout_marginTop="5dp"
+        android:paddingTop="25dp"
+        android:paddingLeft="12dp"
+        android:paddingRight="12dp"
+        android:paddingBottom="25dp"
+
+        android:backgroundTint="#FFC24F"
+        android:outlineSpotShadowColor="#FFB730"
+        android:textColor="#1E1E1E"
+        android:textSize="30dp"/>
+
+    <Button
+        android:id="@+id/simple7"
+        android:text="7"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/simple4"
+        android:layout_marginLeft="13dp"
+        android:layout_marginTop="5dp"
+
+        android:paddingTop="25dp"
+        android:paddingLeft="12dp"
+        android:paddingRight="12dp"
+        android:paddingBottom="25dp"
+
+        android:backgroundTint="#FFB730"
+        android:outlineSpotShadowColor="#FFB730"
+        android:textColor="#1E1E1E"
+        android:textSize="30dp"/>
+
+    <Button
+        android:id="@+id/simple8"
+        android:text="8"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/simple7"
+
+        android:layout_marginLeft="113dp"
+        android:layout_marginTop="5dp"
+        android:paddingTop="25dp"
+        android:paddingLeft="12dp"
+        android:paddingRight="12dp"
+        android:paddingBottom="25dp"
+
+        android:backgroundTint="#FFB730"
+        android:outlineSpotShadowColor="#FFB730"
+        android:textColor="#1E1E1E"
+        android:textSize="30dp"/>
+
+    <Button
+        android:id="@+id/simple9"
+        android:text="9"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/simple7"
+
+        android:layout_marginLeft="213dp"
+        android:layout_marginTop="5dp"
+        android:paddingTop="25dp"
+        android:paddingLeft="12dp"
+        android:paddingRight="12dp"
+        android:paddingBottom="25dp"
+
+        android:backgroundTint="#FFB730"
+        android:outlineSpotShadowColor="#FFB730"
+        android:textColor="#1E1E1E"
+        android:textSize="30dp"/>
+
+    <Button
+        android:id="@+id/simpleDivide"
+        android:text="/"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/simple7"
+
+        android:layout_marginLeft="313dp"
+        android:layout_marginTop="5dp"
+        android:paddingTop="25dp"
+        android:paddingLeft="12dp"
+        android:paddingRight="12dp"
+        android:paddingBottom="25dp"
+
+        android:backgroundTint="#FFC24F"
+        android:outlineSpotShadowColor="#FFB730"
+        android:textColor="#1E1E1E"
+        android:textSize="30dp"/>
+
+    <Button
+        android:id="@+id/simpleDot"
+        android:text="."
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/simple7"
+        android:layout_marginLeft="13dp"
+        android:layout_marginTop="5dp"
+
+        android:paddingTop="25dp"
+        android:paddingLeft="12dp"
+        android:paddingRight="12dp"
+        android:paddingBottom="25dp"
+
+        android:backgroundTint="#FFC24F"
+        android:outlineSpotShadowColor="#FFB730"
+        android:textColor="#1E1E1E"
+        android:textSize="30dp"/>
+
+    <Button
+        android:id="@+id/simple0"
+        android:text="0"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/simpleDot"
+
+        android:layout_marginLeft="113dp"
+        android:layout_marginTop="5dp"
+        android:paddingTop="25dp"
+        android:paddingLeft="12dp"
+        android:paddingRight="12dp"
+        android:paddingBottom="25dp"
+
+        android:backgroundTint="#FFB730"
+        android:outlineSpotShadowColor="#FFB730"
+        android:textColor="#1E1E1E"
+        android:textSize="30dp"/>
+
+    <Button
+        android:id="@+id/simpleDelete"
+        android:text="Del"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/simpleDot"
+
+        android:layout_marginLeft="213dp"
+        android:layout_marginTop="5dp"
+        android:paddingTop="28.5dp"
+        android:paddingLeft="12dp"
+        android:paddingRight="12dp"
+        android:paddingBottom="28.5dp"
+
+        android:backgroundTint="#FFA13D"
+        android:outlineSpotShadowColor="#FFB730"
+        android:textColor="#1E1E1E"
+        android:textSize="25dp"/>
+
+    <Button
+        android:id="@+id/simpleTimes"
+        android:text="x"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/simpleDot"
+
+        android:layout_marginLeft="313dp"
+        android:layout_marginTop="5dp"
+        android:paddingTop="25dp"
+        android:paddingLeft="12dp"
+        android:paddingRight="12dp"
+        android:paddingBottom="25dp"
+
+        android:backgroundTint="#FFC24F"
+        android:outlineSpotShadowColor="#FFB730"
+        android:textColor="#1E1E1E"
+        android:textSize="30dp"/>
+
+    <Button
+        android:id="@+id/simpleEquals"
+        android:text="="
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/simpleDot"
+
+        android:layout_marginLeft="313dp"
+        android:layout_marginTop="10dp"
+        android:padding="25dp"
+
+        android:backgroundTint="#FFC900"
+        android:outlineSpotShadowColor="#FFB730"
+        android:textColor="#1E1E1E"
+        android:textSize="50dp"/>
+
+</RelativeLayout>
