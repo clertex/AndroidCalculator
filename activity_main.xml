@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1E1E1E"
+    tools:context=".MainActivity"
+    >
+
+    <Button
+        android:id="@+id/simpleCalc"
+        android:text="Simple Calculator"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:padding="20dp"
+
+        android:backgroundTint="#1E1E1E"
+        android:outlineSpotShadowColor="#FFB730"
+        android:textColor="#FFB730"
+        android:textSize="20dp"/>
+
+    <Button
+        android:id="@+id/advancedCalc"
+        android:text="Advanced Calculator"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_below="@+id/simpleCalc"
+        android:layout_marginTop="15dp"
+        android:padding="20dp"
+
+        android:backgroundTint="#1E1E1E"
+        android:outlineSpotShadowColor="#FFB730"
+        android:textColor="#FFB730"
+        android:textSize="20dp"/>
+
+    <ImageView
+        android:id="@+id/logoCalc"
+        android:src="@drawable/calc_2"
+
+        android:layout_above="@+id/simpleCalc"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="20dp"
+        android:layout_width="150dp"
+        android:layout_height="150dp"/>
+
+
+</RelativeLayout>
